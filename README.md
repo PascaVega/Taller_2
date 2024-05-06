@@ -755,8 +755,8 @@ tome aquellos números que son múltiplos de 3 y los guarde en una lista nueva, 
   </tr>
   <tr bgcolor="#e4e4ed">
     <td style="color:#141414" align="center">Para este ejercicio, se utilizan los dos métodos planteados:
-      <li>el primero haciendo uso de la condición <i>numero % 3 == 0</i></li> 
-      <li>el segundo se hace a partir de el criterio de divisibilidad, en donde se suman los digitos hasta que el número resultante sea un número de una cifra, con lo cual se valida la divisibilidad.</li>
+      <li>El primero haciendo uso de la condición <i>numero % 3 == 0</i></li> 
+      <li>El segundo se hace a partir de el criterio de divisibilidad, en donde se suman los digitos hasta que el número resultante sea un número de una cifra, con lo cual se valida la divisibilidad.</li>
     </td>
   </tr>
 </table>
