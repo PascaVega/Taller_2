@@ -12,7 +12,7 @@
     <td style="color:#141414" align="center">Desarrollar un programa que ingrese un número entero n y separe todos los digitos que componen el número.</td>
   </tr>
   <tr bgcolor="#e4e4ed">
-    <td style="color:#141414" align="center">Para separar los digitos, primero se elimina el punto del número flotante al igual que el signo - en caso de que el número sea negativo. Luego se convierte en número en una cadena y se separan los digitos. Para finalizar es verifica si el último número después del punto es un cero y se elimina (dado que ese cero es agregado por defecto al convertir el número en un flotante). </td>
+    <td style="color:#141414" align="center">Para separar los digitos, primero se elimina el punto del número flotante al igual que el signo - en caso de que el número sea negativo. Luego se convierte en número en una cadena y se separan los digitos. Para finalizar, se verifica si el último número después del punto es un cero y se elimina (dado que ese cero es agregado por defecto al convertir el número en un flotante). </td>
   </tr>
 </table>
 
