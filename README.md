@@ -687,35 +687,43 @@ def introducir() -> list:
     return numeros
 
 def desarrollo(numeros : list):
+    #Se ordenan los números de menor a mayor
     numeros.sort()
 
+    #Se obtiene el promedio
     promedio : float = 0
     for numero in numeros:
         promedio += (numero/5)
     print(f"Promedio: {promedio}")
 
+    #Se obtiene la mediana
     if len(numeros) % 2 == 0:
         mediana : float  = (numeros[len(numeros)//2-1] + numeros[len(numeros)//2])/2
     else:
         mediana = numeros[len(numeros)//2]
     print(f"Mediana: {mediana}")
 
+    #Se obtiene el promedio multiplicativo
     promedio_multiplicativo : float = 1
     for numero in numeros:
         promedio_multiplicativo *= numero
     promedio_multiplicativo = promedio_multiplicativo/(len(numeros))
     print(f"Promedio multiplicativo: {promedio_multiplicativo}")
 
+    #Se imprime la lista en orden ascendente
     print(f"Números de forma ascendente: {numeros}")
 
+    #Se invierte la lista y se imprime
     numeros.sort(reverse = True)
     print(f"Números de forma descendente: {numeros}")
 
+    #Se halla el número menor y el mayor para luego operarlos e imprimir el resultado
     num_min : float = min(numeros)
     num_max : float = max(numeros)
     potencia : float = num_max**num_min
     print(f"potencia del mayor número elevado al menor número: {potencia}")
 
+    #Se obtiene la raiz del número menor
     raiz : float = num_min ** (1/3)
     print(f"La raiz cúbica del número menor: {raiz}")
     return
@@ -864,7 +872,7 @@ if __name__ == "__main__":
 
 <table cellspacing="1" bgcolor="" align="center">
   <tr bgcolor="#252582">
-    <th><b>Taller 2 - Parte 10</b></th>
+    <th><b>Taller 2 - Parte 11</b></th>
   </tr>
   <tr bgcolor="#e4e4ed">
     <td style="color:#141414" align="center">Desarrollar un algoritmo que determine si una matriz es mágica. Se dice que una matriz cuadrada es mágica si la suma de cada una de sus filas, de cada una de sus columnas y de cada diagonal es igual.</td>
